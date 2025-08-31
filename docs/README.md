@@ -60,9 +60,9 @@ make
 Or compile manually:
 ```bash
 # On Windows:
-g++ -std=c++17 -pthread -Iinclude /*.cpp -o my_redis_server -lws2_32
+g++ -std=c++17 -pthread -Iinclude main.cpp source/*.cpp -o my_redis_server -lws2_32
 # On Linux/macOS:
-g++ -std=c++17 -pthread -Iinclude /*.cpp -o my_redis_server
+g++ -std=c++17 -pthread -Iinclude main.cpp source/*.cpp -o my_redis_server
 ```
 
 ---

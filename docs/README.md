@@ -34,14 +34,15 @@ MicroRedis/
 │   ├── RedisDatabase.h
 │   └── RedisServer.h
 ├── source/
-│   ├── main.cpp
 │   ├── RedisCommandHandler.cpp
 │   ├── RedisDatabase.cpp
 │   └── RedisServer.cpp
 ├── scripts/
 │   └── all_test.sh
 ├── Makefile
+├── main.cpp
 └── .gitignore
+
 ```
 
 ---
